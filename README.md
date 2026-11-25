@@ -10,7 +10,7 @@ Search the [OneGTMLab](https://www.onegtmlab.dev) GTM tool directory from Java o
 <dependency>
   <groupId>io.github.jaizendra-netizen</groupId>
   <artifactId>gtm-tool-finder</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
@@ -22,7 +22,7 @@ for (Entry e : GtmToolFinder.search("enrichment", "Tool", 10)) {
 }
 ```
 
-Command line: `java -jar gtm-tool-finder-1.0.0.jar --kind comparison clay`
+Command line: `java -jar gtm-tool-finder-1.0.1.jar --kind comparison clay`
 
 Every result links to the full page on [onegtmlab.dev/tool-directory](https://www.onegtmlab.dev/tool-directory). The list is packaged in the jar, so it works offline and sends no data anywhere.
 

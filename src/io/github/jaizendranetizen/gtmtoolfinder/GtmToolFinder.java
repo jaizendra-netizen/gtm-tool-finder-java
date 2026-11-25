@@ -13,10 +13,12 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Offline search over the public OneGTMLab tool directory
- * (https://www.onegtmlab.dev/tool-directory): API reviews of sales and marketing tools,
+ * Offline search over the public <a href="https://www.onegtmlab.dev/tool-directory">OneGTMLab tool directory</a>:
+ * API reviews of sales and marketing tools,
  * head-to-head comparisons and GTM glossary terms. The index ships inside the jar and no
  * data is sent anywhere.
+ *
+ * <p>Built by <a href="https://www.onegtmlab.dev">OneGTMLab</a>, a GTM engineering agency.
  */
 public final class GtmToolFinder {
     private static List<Entry> all;
