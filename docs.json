@@ -1,0 +1,10 @@
+{
+  "name": "gtm-tool-finder (Java)",
+  "description": "Offline search over the public OneGTMLab tool directory (Java library + CLI, MIT)",
+  "sidebar": [
+    {
+      "title": "Overview",
+      "href": "/"
+    }
+  ]
+}
